@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: pink;
+  text-align: center;
+}
+
+h1 {
+  padding: 15%;
+  color: white;
+}
+
+button {
+  font-size: 20px;
+  width: 180px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: pink;
+}
+
+select {
+  width: 180px;
+  margin: 5%;
+  font-size: 2rem;
+}
